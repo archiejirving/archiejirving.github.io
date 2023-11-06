@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 import Admin from './pages/Admin'
 import App from './pages/App'
@@ -14,7 +14,7 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <BrowserRouter>
+     <HashRouter>
       <Routes>
         <Route path="*" element={<PageNotFound />} />
         <Route path="/" element={<App />} />
@@ -26,7 +26,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/database' element={<Database />} />
       </Routes>
 
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 )
 //<div>

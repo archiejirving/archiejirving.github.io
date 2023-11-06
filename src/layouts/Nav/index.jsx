@@ -83,8 +83,8 @@ function Nav() {
             <div className='w-[60%] h-[100%] m-auto'>
                 {isMobile ? <TitleSegment3 /> : <></>}
                 {navSize==0 ? <TitleSegment2 /> : <TitleSegment />}
-                <NavButton text="BLOG" link="/blog" />
-                <NavButton text="DATABASE" link="/database" />     
+                <NavButton text="BLOG" link="#/blog" />
+                <NavButton text="DATABASE" link="#/database" />     
             </div>
         </nav>
     );

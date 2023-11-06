@@ -31,9 +31,9 @@ function Article() {
         if (!dataLoaded) {
             const path = window.location.pathname.split('/')
             loadBlogData(path[path.length - 1]).then((data) => {
-                if (data == null) {
-                    window.location.href = '/'
-                }
+                //if (data == null) {
+                 //   window.location.href = '/'
+                //}
                 setMydata(data)
                 var temp = []
                 var paragraph_count = 0
