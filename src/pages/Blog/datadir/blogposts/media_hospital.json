@@ -1,0 +1,21 @@
+{
+    "data": {
+        "title": "Examining the failures of the media following the explosion at the Al Babtist Hospital",
+        "short_title": "Equipment Losses During The Israel-Gaza Conflict",
+        "paragraphs": [
+            "Two weeks on, the explosion at hospital remains a case unsolved.",
+            "For the sake of everyone, this needs to stop."
+        ],
+        "images": [
+            "https://media.cnn.com/api/v1/images/stellar/prod/231018123108-01-israel-gaza-101823-gaza-city.jpg?c=original"
+        ],
+        "structure": [
+            "title",
+            "mainimage",
+            "paragraph",
+            "paragraph"
+        ]
+
+
+    }
+}

@@ -1,0 +1,59 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+    .viaappia {
+      font-family: 'VIAAPPIA';
+    }
+    @keyframes loadfadein {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    @keyframes loadpopout {
+      0% {
+        height: 0;
+      }
+      100% {
+        height: 75%;
+      }
+    }
+    .animate-loadpopout {
+      animation: loadpopout 0.2s ease-in-out;
+    }
+    @keyframes loadpopout2 {
+      0% {
+        height: 0;
+      }
+      100% {
+        height: 8rem;
+      }
+    }
+    .animate-loadpopout2 {
+      animation: loadpopout2 0.2s ease-in-out;
+    }
+    .animate-loadfadein {
+      animation: loadfadein 0.2s ease-in-out;
+    }
+      
+}
+
+@font-face {
+  font-family: 'VIAAPPIA';
+  src: local('ViaAppia') url('./assets/fonts/viaappia/ViaAppia-Regular.woff2') format('woff2'),
+       url('./assets/fonts/viaappia/ViaAppia-Regular.woff') format('woff');
+}
