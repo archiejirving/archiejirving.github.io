@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Via Appia';
-    src: url('ViaAppia-Regular.woff2') format('woff2'),
-        url('ViaAppia-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-

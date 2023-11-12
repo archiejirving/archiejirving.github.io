@@ -1,0 +1,1 @@
+const a={version:"0.1",date:"2017-12-12",relation:"israel_gaza_conflict",id:"Hamas_list_1",belligerent:"Hamas"},t={pickups:{Pickup:[{condition:"destroyed",url:"https://drive.google.com/uc?id=1jwZ670rlWFcSSHfXaHPbKfe-lhEvsDwu"}]}},e={meta:a,list:t};export{e as default,t as list,a as meta};
